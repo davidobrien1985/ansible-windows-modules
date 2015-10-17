@@ -56,7 +56,7 @@ author: "David O'Brien (obrien.david@outlook.com) @david_obrien"
 
 EXAMPLES = '''
 # Compress a single file, do not overwrite existing foo.zip. Will result in existing foo.zip to be renamed to foo.bak
-- win_copy: src=C:\\folder\\foo.bar dest=c:\\TEMP\\foo.zip
+- win_zip: src=C:\\folder\\foo.bar dest=c:\\TEMP\\foo.zip
 # Compress a folder, overwrite an existing foo.zip.
-- win_copy: src=C:\\folder dest=c:\\TEMP\\foo.zip force=true
+- win_zip: src=C:\\folder dest=c:\\TEMP\\foo.zip force=true
 '''
